@@ -1,6 +1,10 @@
 /*Tag Selectors*/
 
 /*Class Selectors*/
+.container-fluid {
+  padding: 3% 15%;
+}
+
 .page-header {
   font-family: "Montserrat-Black";
   font-size: 3rem;
