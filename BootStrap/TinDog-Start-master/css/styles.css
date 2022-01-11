@@ -1,0 +1,14 @@
+/*Tag Selectors*/
+
+/*Class Selectors*/
+.page-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Pseudo Class Selectors*/
+
+/*ID Selectors*/
+#title {
+  background-color: #ff4c68;
+}
