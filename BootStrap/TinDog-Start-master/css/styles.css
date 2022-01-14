@@ -1,13 +1,15 @@
 /*Tag Selectors*/
-
+body {
+  font-family: "Montserrat";
+}
 /*Class Selectors*/
 .container-fluid {
   padding: 3% 15%;
 }
 
 .page-header {
-  font-family: "Montserrat-Black";
-  font-size: 3rem;
+  font-family: "Montserrat";
+  font-size: 2.75rem;
   line-height: 1.5;
 }
 /*Pseudo Class Selectors*/
@@ -15,4 +17,5 @@
 /*ID Selectors*/
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
