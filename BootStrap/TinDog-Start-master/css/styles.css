@@ -4,9 +4,14 @@ body {
   font-family: "Montserrat";
 }
 
+p {
+  color: #8f8f8f;
+}
+
 /*Class Selectors*/
 
 .Box {
+  padding: 5%;
   text-align: center;
 }
 
@@ -16,6 +21,12 @@ body {
 
 .download button {
   margin: 3% 5% 5% 0;
+}
+
+.icon {
+  color: #ef8172;
+
+  margin-bottom: 1rem;
 }
 
 .page-header {
@@ -41,12 +52,21 @@ body {
 
 /*Pseudo Class Selectors*/
 
+.icon:hover {
+  color: #ff4c68;
+}
 
 /*ID Selectors*/
 
 #features {
   padding: 7% 15%;
 }
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+}
+
 #title {
   background-color: #ff4c68;
   color: #fff;
