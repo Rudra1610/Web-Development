@@ -1,8 +1,15 @@
 /*Tag Selectors*/
+
 body {
   font-family: "Montserrat";
 }
+
 /*Class Selectors*/
+
+.Box {
+  text-align: center;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
@@ -34,7 +41,12 @@ body {
 
 /*Pseudo Class Selectors*/
 
+
 /*ID Selectors*/
+
+#features {
+  padding: 7% 15%;
+}
 #title {
   background-color: #ff4c68;
   color: #fff;
