@@ -88,6 +88,7 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  z-index: -1;
 }
 
 /*Pseudo Class Selectors*/
@@ -100,6 +101,7 @@ p {
 
 #features {
   padding: 7% 15%;
+  background-color: white;
 }
 
 #press {
@@ -124,5 +126,3 @@ p {
   background-color: #ff4c68;
   color: #fff;
 }
-
-
