@@ -86,9 +86,10 @@ p {
 }
 
 .title-image {
-  width: 60%;
+  position: absolute;
+  width: 20%;
   transform: rotate(25deg);
-  z-index: -1;
+  z-index: 0;
 }
 
 /*Pseudo Class Selectors*/
@@ -100,8 +101,9 @@ p {
 /*ID Selectors*/
 
 #features {
-  padding: 7% 15%;
   background-color: white;
+  padding: 7% 15%;
+  position: absolute;
 }
 
 #press {
