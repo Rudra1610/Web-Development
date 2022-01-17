@@ -35,7 +35,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .download button {
@@ -88,7 +88,7 @@ p {
 .title-image {
   margin: auto auto -12rem 50px;
   transform: rotate(25deg);
-  width: 60%;   
+  width: 60%;
 }
 
 /*Pseudo Class Selectors*/
