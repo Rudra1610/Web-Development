@@ -86,10 +86,9 @@ p {
 }
 
 .title-image {
-  position: absolute;
-  width: 20%;
+  margin: auto auto -12rem 50px;
   transform: rotate(25deg);
-  z-index: 0;
+  width: 60%;   
 }
 
 /*Pseudo Class Selectors*/
@@ -103,7 +102,7 @@ p {
 #features {
   background-color: white;
   padding: 7% 15%;
-  position: absolute;
+  position: relative;
 }
 
 #press {
