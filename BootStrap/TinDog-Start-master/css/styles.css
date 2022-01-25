@@ -99,10 +99,24 @@ p {
 
 /*ID Selectors*/
 
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  font-family: "Montserrat";
+  padding: 7% 15%;
+  text-align: center;
+}
+
 #features {
   background-color: white;
   padding: 7% 15%;
   position: relative;
+}
+
+#footer {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
 }
 
 #press {
