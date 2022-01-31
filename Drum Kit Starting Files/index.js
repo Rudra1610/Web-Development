@@ -1,44 +1,37 @@
-function handleClick() {
-  switch (this.innerHTML) {
+function makeSounds(key) {
+  switch (key) {
     case "w":
       let tom1 = new Audio("sounds/tom-1.mp3");
-      this.style.color = "white";
       tom1.play();
       break;
 
     case "a":
       let tom2 = new Audio("sounds/tom-2.mp3");
-      this.style.color = "white";
       tom2.play();
       break;
 
     case "s":
       let tom3 = new Audio("sounds/tom-3.mp3");
-      this.style.color = "white";
       tom3.play();
       break;
 
     case "d":
       let tom4 = new Audio("sounds/tom-4.mp3");
-      this.style.color = "white";
       tom4.play();
       break;
 
     case "j":
       let snare = new Audio("sounds/snare.mp3");
-      this.style.color = "white";
       snare.play();
       break;
 
     case "k":
       let crash = new Audio("sounds/crash.mp3");
-      this.style.color = "white";
       crash.play();
       break;
 
     case "l":
       let kick = new Audio("sounds/kick-bass.mp3");
-      this.style.color = "white";
       kick.play();
       break;
 
@@ -47,6 +40,28 @@ function handleClick() {
   }
 }
 
+function handleClicks() {
+  makeSounds(this.innerHTML);
+  addAnimation(this.innerHTML);
+}
+
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", handleClick);
+  document.querySelectorAll(".drum")[i].addEventListener("click", handleClicks);
+}
+
+function handleKeys(event) {
+  let whichKey = event.key;
+  makeSounds(whichKey);
+  addAnimation(whichKey);
+}
+
+document.addEventListener("keydown", handleKeys);
+
+function addAnimation(currentKey) {
+  let activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
